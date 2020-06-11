@@ -10,3 +10,13 @@ Installation Instructions:
  - Add the location of extracted binary file path (/opt/compilers/mspgcc-4.7.3/MSP430/bin/) path to your systems' enviroment $PATH
  - edit $HOME/.bashrc and add the following line at the end of the file.
     - export PATH=$PATH:/opt/compilers/mspgcc-4.7.3/bin
+
+Contiki-NG Instructions:
+ - To use MSP430-GCC-4.7.3 when building Contiki-NG, edit contiki-ng/arch/cpu/msp430/Makefile.msp430:
+ - Change the lines:
+   CC       = msp430-gcc
+   LD       = msp430-gcc
+ - To:
+   CC       = msp430-gcc-4.7.3
+   LD       = msp430-gcc-4.7.3
+
