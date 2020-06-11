@@ -13,10 +13,10 @@ Installation Instructions:
 
 Contiki-NG Instructions:
  - To use MSP430-GCC-4.7.3 when building Contiki-NG, edit contiki-ng/arch/cpu/msp430/Makefile.msp430:
- - Change the lines:
-   CC       = msp430-gcc
-   LD       = msp430-gcc
- - To:
-   CC       = msp430-gcc-4.7.3
-   LD       = msp430-gcc-4.7.3
+ - Change the lines: \
+   CC       = msp430-gcc \
+   LD       = msp430-gcc \
+ - To: \ 
+   CC       = msp430-gcc-4.7.3 \
+   LD       = msp430-gcc-4.7.3 \
 
